@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kalender</title>
+  <link rel="stylesheet" href="kalender.css">
+  <script src="kalender.js" defer></script>
+</head>
+
+<body>
+  <table id="myTable">
+    <thead>
+      <tr>
+        <td><button onclick='monthMin()'>«</button></td>
+        <td colspan="5" id='maandTitel'></td>
+        <td><button onclick='monthPlus()'>»</button></td>
+      </tr>
+      <tr id='dagen'>
+        <td>ma</td>
+        <td>di</td>
+        <td>wo</td>
+        <td>do</td>
+        <td>vr</td>
+        <td>za</td>
+        <td>zo</td>
+      </tr>
+    </thead>
+    <tbody id="myBody">
+    </tbody>
+  </table>
+</body>
+
+</html>

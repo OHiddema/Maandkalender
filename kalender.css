@@ -1,0 +1,14 @@
+table {
+  /* width: 100%; */
+  border: 1px solid black;
+  font-size: 6vmin;
+  border-radius: 4px;
+}
+
+td {
+  border: 1px solid black;
+  width: 10vw;
+  height: 10vh;
+  text-align: center;
+  border-radius: 4px;
+}
